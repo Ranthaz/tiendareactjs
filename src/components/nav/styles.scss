@@ -1,0 +1,43 @@
+.flexNav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: violet;
+    margin: 0;
+    padding: 0;
+}
+
+.brandImage{
+    vertical-align: sub;
+
+}
+
+.navCont{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: violet;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.item-li{
+    display: block;
+    text-decoration: none;
+    margin-left: 1.5em;
+    padding: .5em 1em;
+    &:hover{
+        color: lightseagreen;
+        background-color: darkmagenta;
+    }
+    &.category{
+        font-size: small;
+        margin-left: .5em;
+        padding: .8em 1em;
+        align-self: center;
+        &:hover{
+            color: lightseagreen;
+            background-color: darkmagenta;
+        }
+    }
+}
