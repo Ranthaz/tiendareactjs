@@ -1,11 +1,12 @@
 import React from 'react'
 import './styles.scss'
+import imagen from './media/ad-retail.svg'
 
 const Nav = () => {
     return (
         <div className="flexNav">
             <div>
-                <img className="brandImage" src="./media/ad-retail.svg" alt="logo ad-reail"/>
+                <img className="brandImage" src={imagen} alt="logo ad-reail"/>
             </div>
 
             <ul className="navCont ">
