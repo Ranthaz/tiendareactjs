@@ -1,3 +1,5 @@
+import './styleitemlistcont.scss'
+
 const ItemListContainer = (props) => {
     return (
         <div className="itemLiCo">
