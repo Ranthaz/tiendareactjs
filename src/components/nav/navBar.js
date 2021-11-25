@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.scss'
 import imagen from './media/ad-retail.svg'
+import CartWidget from '../cartwidget/CartWidget'
 
 const Nav = () => {
     return (
@@ -15,11 +16,14 @@ const Nav = () => {
                 <li className="item-li category">Camperas</li>
             </ul>
 
+            <CartWidget/>
+
             <ul className="navCont">
                 <li className="item-li">Inicio</li>
                 <li className="item-li">Tienda</li>
                 <li className="item-li">Nosotros</li>
             </ul>
+
         </div>
     )
 }

@@ -1,13 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import Nav from './components/nav/navBar.js';
+import Nav from './components/nav/navBar';
+import ItemListContainer from './components/itemlistcont/ItemListContainer';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
+
+      <header>
       <Nav/>
-      <header className="App-header">
       </header>
+
+      <ItemListContainer mensaje="Bienvenido a la tienda"/>
+
     </div>
   );
 }
