@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 
 const ItemContador = ({agregado}) => {
 
-    const [contador, setContador] = useState(0);
+    const [contador, setContador] = useState(1);
     const [fecha, setFecha] = useState("");
 
     const CuentaClickUp = () => {

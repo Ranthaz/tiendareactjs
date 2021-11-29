@@ -5,8 +5,9 @@ import ItemContador from '../ItemCount/ItemContador'
 
 const ItemListContainer = (props) => {
     
-    const agregado =() => {
-        console.log("Agregado al carrito")
+    const agregado =(contador) => {
+        console.log(contador)  //Me tira object object y no idenfico porque
+        console.log(`${contador} Agregado al carrito`)  
     }
     
     return (
