@@ -1,29 +1,27 @@
 
 import React, {useState} from 'react'
 
-const ItemContador = ({agregado}) => {
+const ItemContador = ({agregado, stock, initial}) => {
 
-    const [contador, setContador] = useState(1);
+    const [contador, setContador] = useState(initial);
     const [fecha, setFecha] = useState("");
 
     const CuentaClickUp = () => {
-        let stock = 12;
+        //let stock = 12;
         if (contador < stock){
             setContador(contador + 1);
             setFecha(new Date().toLocaleString());
         }else 
             if (contador === stock) {
                 console.log(`No hay más de ${stock} unidades.`);
-        }else
-            if (contador === stock) {
-                console.log(`El stock de este producto es: ${stock}`);
-            }
+        }
     }
 
     const CuentaClickDown = () => {
-        if (contador > 1)
-        setContador(contador - 1);
-        setFecha(new Date().toLocaleString());
+        if (contador > 1) {
+            setContador(contador - 1);
+            setFecha(new Date().toLocaleString());
+        }
     }
     
     return (

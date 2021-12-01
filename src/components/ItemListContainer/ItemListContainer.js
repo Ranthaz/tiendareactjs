@@ -13,12 +13,12 @@ const ItemListContainer = (props) => {
     return (
         <div className="itemLiCo">
             <p className="bienvenidaMsj">{props.mensaje}</p>
-            <ItemContador agregado = {agregado}/>
-            <ItemContador agregado = {agregado}/>
-            <ItemContador agregado = {agregado}/>
-            <ItemContador agregado = {agregado}/>
-            <ItemContador agregado = {agregado}/>
-            <ItemContador agregado = {agregado}/>
+            <ItemContador stock="12" initial="1" agregado = {agregado}/>
+            <ItemContador stock="12" initial="1" agregado = {agregado}/>
+            <ItemContador stock="12" initial="1" agregado = {agregado}/>
+            <ItemContador stock="12" initial="1" agregado = {agregado}/>
+            <ItemContador stock="12" initial="1" agregado = {agregado}/>
+            <ItemContador stock="12" initial="1" agregado = {agregado}/>
         </div>
     )
 }
