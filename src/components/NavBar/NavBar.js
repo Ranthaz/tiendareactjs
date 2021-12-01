@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.scss'
 import imagen from './media/ad-retail.svg'
-import CartWidget from '../cartwidget/CartWidget'
+import CartWidget from '../CartWidget/CartWidget'
 
 const Nav = () => {
     return (

@@ -1,7 +1,7 @@
 import './StyleItemListCont.scss'
-import '../ItemCount/StyleItemCount.scss'
-import '../ItemCount/ItemContador'
-import ItemContador from '../ItemCount/ItemContador'
+import '../ItemContador/StyleItemContador.scss'
+import '../ItemContador/ItemContador'
+import ItemContador from '../ItemContador/ItemContador'
 
 const ItemListContainer = (props) => {
     
